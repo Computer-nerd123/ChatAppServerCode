@@ -83,7 +83,7 @@ print(pub_ip)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 hostIP = socket.gethostbyname(socket.gethostname())
 print(hostIP)
-port = 21
+port = 12345
 
 #s.bind((pub_ip,port))
 s.bind(("0.0.0.0",port))
