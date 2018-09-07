@@ -86,7 +86,7 @@ print(hostIP)
 port = 12345
 
 #s.bind((pub_ip,port))
-s.bind((hostIP,port))
+s.bind(("0.0.0.0",port))
 
 threadNum = 0
 
